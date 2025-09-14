@@ -1,0 +1,25 @@
+1. Humidity
+  - N group (no rain tomorrow) peaked at around 0 and slightly negative
+  - Y group (rain tomorrow) peaked in the positive range of humidity (slightly less than 1).
+  - Y group spread more to the right of the humidity, while N group spread more to the left side
+  - Interpretation: + higher humidity is strongly correlated with rain tomorrow. 
+                    + Humidity is a useful attribute for predicting rain
+2. Temp_max
+  - Y group peak around -1 to 0 (mostly in negative range), this means that on the day that there will rain tomorrow, today maximum number tend to be lower than average or near average
+  - N group peak more to the right side around > 1 on the z score of max temperature, it means that on the no-rain day, the temperature of the day tend to be much hotter than average.
+  - Y group are more concentrated on the cooler day.
+  - N group are more concentrated on hotter days.
+  - Both Y and N group overlaps a lot across the z score
+  - Interpretation: + cooler maximum temperature today can somewhat indicate that there will rain tomorrow
+                    + warmer maximum temperature today can somewhat indicate that there will be no rain tomorrow
+                    + However, the relationship between temperature and rain are not strong since there's a considerable amount of overlap between two group.
+                    + Therefore, even though temp_max might help a bit for predicting rain tomorrow but it's weaker than humidity
+3. Rain
+  - The tallest bar is at 0,this means that most day have no rain
+  - Within the bar, you can see that the purple color dominate the entire bar, this means that even though there is no rain today, tomorrow could be rain or no main day, thought there are higher chance of rain tomorrow since it appear at the top of the bar
+  - There little to no blue bar in the plot, this could mean that all the possibility of no rain tomorrow are already included in the purple bar.
+  - Y group clustered across the positive range of rain today (z-score), this means that if today rain, there is a high possibility there will be rainy tomorrow.
+  - Interpretation: + no rain today -> likely no rain tomorrow thought the chance is small
+                    + rain today -> highly likely rainy tomorrow
+                    + rain today is a strong predictor for tomorrow’s rain
+

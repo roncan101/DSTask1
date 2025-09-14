@@ -1,0 +1,14 @@
+Interpretation of Scatter Plots:
+1. Humidity vs Rain
+  - The plot showed that most point clustered around under rain 0, meanings that on most days there were no rainfall, regardless of the humidity
+  - The plot showed that most point that has rainfall (clustered at rain > 0) has humidity > 0, meaning when rain does happen, it mostly happens on the day with higher humidity.
+  - This confirmed that high humidity is associated with rainfall (high correlation), while low humidity day rarely has rainfall.
+  - Therefore, humidity is a strong predictor of rainfall.
+2. Visibility vs Wind Speed
+  - The plot showed that on most day, most point clustered at visibility > 0, suggesting that there are little to no rainfall, storm or any sign of bad weather in the provided dataset.
+  - The plot showed that points scatter along the y axis (wind speed), which imply that there are no relationship between visibility and wind speed.
+  - Visibility and wind speed do not have a strong overall correlation
+  - While poor visibility sometimes means that it's a stormy day (high wind speed), but the plot showed that it seem not to be the case
+  
+
+
