@@ -8,7 +8,7 @@ plot(ZHW2023$humidity, ZHW2023$rain,
 dev.off()   # closes the first file
 
 # Save Visibility vs Wind Speed
-png("subtask3_visibility_vs_wind_scatter_plot.png", width=800, height=600)
+png("subtask2_visibility_vs_wind_scatter_plot.png", width=800, height=600)
 plot(ZHW2023$visibility, ZHW2023$wind_speed,
      main = "Scatter Plot: Visibility vs Wind Speed",
      xlab = "Visibility (meters)",
