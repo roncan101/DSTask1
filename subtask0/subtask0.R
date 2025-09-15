@@ -8,6 +8,9 @@ a<-a %>% mutate(rain = replace_na(rain,0))
 view(a)
 a<-a %>% mutate(rain_t=lead(rain))
 a<- a %>% mutate(`rain_t?` = if_else(rain_t > 0, 'Y', 'N'))
+#Removing NA values from the new rows
+a<-a %>% mutate(rain_t = replace_na(rain_t, 0))
+a<-a %>% mutate(`rain_t?`= replace_na(`rain_t?`, "N"))
 view(a)
 
 #creating the z-score ZHW2023
