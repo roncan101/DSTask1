@@ -1,0 +1,9 @@
+Cloudiness vs Wind Speed
+
+- The darkest/densest regions appear approximately between the 20-55% cloudiness and 8-11 mph wind speed, showing that partly clear skies frequently occur with mid-range winds. A second dense cluster appears at 60–90% cloudiness and 12–16 mph wind speed, displaying a tendency for high cloud cover to coincide with mid range winds, but still higher that the previous region.
+
+- The low density is most apparent in very high wind speed (18+ mph) and low to moderate cloudiness (<40%) but also prevalent in the low wind speed (<5 mph) and high cloudiness (>75%) category to much lower degree.
+
+- Cloudiness seems to be a lot more evenly spread out through the plot compared to wind speed which tends to stay under 15 mph for the majority of the plot. Strong winds are more likely under cloudy conditions. 
+
+- It seems to display a weak positive trend, generally displaying that with higher cloudiness the wind speed increases barring some outliers. This likely has to do with weather conditions that display both of these traits such as storms which can be increasingly windy and cloudy. 
